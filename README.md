@@ -1,6 +1,9 @@
 # Image analysis scripts
-1: RGB extraction from adaxial leaf images taken with a set of color standards (Post-CCM).
-2: Callose quantification from longitudinal sections stained with aniline blue and imaged using fluorescent microscopy. 
+1: RGB extraction from adaxial leaf images taken with a set of color standards (Post-CCM).  
+2: Callose quantification from longitudinal sections stained with aniline blue and imaged using fluorescent microscopy.   
+
+
+![image](https://github.com/RooneyR/NRO_Image_analysis/assets/92943818/ba675c2d-31e7-4b9a-87e2-3e9e18adb93b)
 
 ## 1 - RGB extraction: 
 
@@ -15,7 +18,7 @@ Sunoj, S., Igathinathane, C., Saliendra, N., Hendrickson, J., & Archer, D. (2018
 
 ## 2 - Callose quantification:
 
-This macro is a modified version of a protocol by Zavaliev and Epel (2015) originally used for confocal images. 
+This macro is a modified version of a protocol by Zavaliev and Epel (2015) initially used for confocal images. 
 Several preprocessing steps are required to analyze fluorescent microscopy images, including delineating/recording an ROI space and refining image selection.
 
 Added code includes user prompts to select a target and a saved image folder. Users must determine a global scale for their images, set individual parameters,  and use the most appropriate auto-local threshold type for their images. Phansalker thresholding was selected for fluorescent imaging of callose deposits in the phloem, as this form of thresholding was created to process low-contrast imaging (Neerad et al., 2011). 
